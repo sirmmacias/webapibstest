@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: webapibstest
+  annotations:
+    github.com/project-slug: sirmmacias/webapibstest
+spec:
+  type: other
+  lifecycle: unknown
+  owner: infrastructure
