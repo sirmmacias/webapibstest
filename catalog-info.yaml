@@ -15,7 +15,7 @@ metadata:
       icon: dashboard
 spec:
   apiVersion: 1.0
-  type: Api
+  type: openapi
   lifecycle: experimental
   owner: platform
   system: public-websites
