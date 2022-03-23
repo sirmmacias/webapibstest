@@ -14,7 +14,7 @@ metadata:
       title: Admin Dashboard
       icon: dashboard
 spec:
-  type: api
+  type: Api
   lifecycle: experimental
   owner: platform
   system: public-websites
