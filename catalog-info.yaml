@@ -19,27 +19,5 @@ spec:
   lifecycle: experimental
   owner: platform
   system: public-websites
-  definition: |
-    openapi: 3.0.1
-    info:
-      title: defaultTitle
-      description: defaultDescription
-      version: '0.1'
-    servers:
-      - url: https://localhost:7050
-    paths:
-      /WeatherForecast:
-        get:
-        description: Auto generated using Swagger Inspector
-        responses:
-          '200':
-            description: Auto generated using Swagger Inspector
-            content:
-              application/json; charset=utf-8:
-                schema:
-                  type: string
-                examples: {}
-        servers:
-          - url: https://localhost:7050
-       servers:
-          - url: https://localhost:7050
+  definition:
+    $text: https://localhost:7050/swagger/v1/swagger.yaml
