@@ -20,4 +20,4 @@ spec:
   owner: platform
   system: public-websites
   definition:
-    $text: https://configurationapp-api-web-dev-we-001.azurewebsites.net/swagger/v1/swagger.yaml
+    $text: https://petstore.swagger.io/v2/swagger.json
