@@ -2,9 +2,19 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: webapibstest
+  description: The weather forecast
+  labels:
+    example.com/custom: custom_label_value
   annotations:
     github.com/project-slug: sirmmacias/webapibstest
+  tags:
+    - c#
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
 spec:
-  type: other
-  lifecycle: unknown
+  type: api
+  lifecycle: experimental
   owner: platform
+  system: public-websites
