@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: webapibstest
-
   annotations:
     github.com/project-slug: sirmmacias/webapibstest
 
@@ -13,7 +12,7 @@ metadata:
       title: Admin Dashboard
       icon: dashboard
 # https://backstage.io/docs/features/software-catalog/descriptor-format#metadatatags-optional
-  spec:
+spec:
     type: api
     lifecycle: experimental 
     system: public-websites
