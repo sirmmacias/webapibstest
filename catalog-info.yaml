@@ -7,6 +7,8 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     github.com/project-slug: sirmmacias/webapibstest
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
   tags:
     - c#
   links:
