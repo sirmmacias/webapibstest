@@ -5,8 +5,6 @@ plugins:
   - techdocs-core
 
 nav:
-  - Readme:
-      - test?: 'README.md'
   - Overview:
       - What is Backstage?: 'test.md'
       
