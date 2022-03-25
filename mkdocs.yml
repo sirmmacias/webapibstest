@@ -6,7 +6,7 @@ plugins:
 
 nav:
   - Readme:
-      - test?: '../README.md'
+      - test?: 'README.md'
   - Overview:
       - What is Backstage?: 'test.md'
       
